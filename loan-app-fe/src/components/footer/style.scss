@@ -1,0 +1,29 @@
+.footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  justify-content: space-around;
+  &__links {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+    a {
+      font-size: 2rem;
+    }
+  }
+  &__info {
+    margin: auto;
+    font-size: 1.4rem;
+    color: #191919;
+    span {
+      color: #9b0000;
+      font-weight: 0.8rem;
+    }
+  }
+}

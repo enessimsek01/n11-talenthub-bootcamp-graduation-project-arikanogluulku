@@ -1,0 +1,42 @@
+.navbar {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 7%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: 6rem;
+  &__logo {
+    height: 4rem;
+    width: auto;
+  }
+  &__title {
+    text-decoration: none;
+    font-size: 1.9rem;
+    margin: auto 4rem;
+    color: #000B49;
+    &:hover{
+      color: #000B49;
+      text-decoration: none
+      }
+  }
+  &__items {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  &__item {
+    text-decoration: none;
+    font-size: 1.6rem;
+    margin: 0 2rem;
+    font-weight: 0.8rem;
+    color: #000B49;
+    &:hover {
+      color: #9B0000;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.form {
+  &__item {
+    width: 80%;
+    margin: 1rem auto;
+  }
+  &__label {
+    font-size: 1.5rem;
+    color: #9b0000;
+  }
+  &__input {
+    width: 100%;
+    font-size: 1.3rem;
+    padding: 1rem 1.5rem;
+    margin: 0.5rem auto;
+    display: inline-block;
+    border: 0.2rem solid #ccc;
+    color: #191919;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+  }
+  &__button {
+    padding: 1rem 4rem;
+    background-color: #9b0000;
+    color: #fffcdc;
+    font-weight: 0.4rem;
+    font-size: 1.8rem;
+    border-radius: 0.8rem;
+    border: 0.1rem solid #fffcdc;
+    margin: 1rem 10rem;
+    float: right;
+    &:hover {
+      background-color: #f6f2d4;
+      color: #9b0000;
+      letter-spacing: 0.4rem;
+      transition: 0.2s linear;
+      border: 0.1rem solid #9b0000;
+    }
+  }
+}

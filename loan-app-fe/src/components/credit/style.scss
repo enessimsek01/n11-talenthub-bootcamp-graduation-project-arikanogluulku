@@ -1,0 +1,29 @@
+.credit {
+  width: 80%;
+  margin: 4rem auto;
+}
+.result {
+  width: 90%;
+  margin: 2rem auto;
+  border-radius: 0.5rem;
+  border-spacing: 1.5rem;
+  overflow-x: auto;
+  tr {
+    margin: 3rem 3rem;
+    padding: 1.5rem;
+  }
+  td {
+    font-size: 1.8rem;
+    span {
+      font-size: 2rem;
+      font-weight: 0.5rem;
+      color: #000b49;
+    }
+  }
+  &__tittle {
+    margin-top: 5rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #000b49;
+  }
+}
