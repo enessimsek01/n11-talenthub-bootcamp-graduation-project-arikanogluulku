@@ -85,25 +85,58 @@ A user who has applied for a loan can request a loan by date of birth and ID num
 ### Credit Inquiry Page | Home Page
 
 The page where the user queries the loan application by entering the date of birth and identification number.
+
+
+![home-inquiry](https://user-images.githubusercontent.com/44470054/151715179-7cf6ba1f-20e7-4f01-9b3f-dcfa5bf98b04.JPG)
+
+
 Sample Inquiry:
+
+The result of the user whose credit result is approve:
+![inquiry-a](https://user-images.githubusercontent.com/44470054/151715211-3f24c1ab-ea42-463c-b4ea-6040bf2782f8.JPG)
+
+
+The result of the user whose credit result is rejection:
+![inquiry-r](https://user-images.githubusercontent.com/44470054/151715217-b26b2d72-8749-4387-8f28-0316fe4e33f1.JPG)
+
+
+If the user does not have a loan application:
+![inquiry-no](https://user-images.githubusercontent.com/44470054/151715372-6282b000-9ccd-4cd5-b22c-5ec6efdcfed4.JPG)
+
 
 
 ### Credit Application Page
+
+![credit-app](https://user-images.githubusercontent.com/44470054/151715424-b588cb63-78d7-4618-8101-dc7c2c56c950.JPG)
+
 Sample Application
+
+![credit-app-result](https://user-images.githubusercontent.com/44470054/151715428-41300a42-ff3c-4cca-8df9-71387276a802.JPG)
+
+
 
 
 ### User Operations 
 This page lists users whose user information is updated or deleted.
 
+![users](https://user-images.githubusercontent.com/44470054/151715249-047fa6d2-fab8-41ac-8db1-cafc5b05fbe6.JPG)
+
+
 User Save : 
+
+![user-save](https://user-images.githubusercontent.com/44470054/151715252-99901dcb-e9c1-40dd-bd5c-0bb6f9ec2d58.JPG)
 
 
 User Updated Model:
+
+![user-save](https://user-images.githubusercontent.com/44470054/151715254-45651cc4-deb8-46d0-8f9d-6cffea02148a.JPG)
 
 
 Form Valid:
 
 The validations for the quality of the data received in the forms are limited in the same way as the backend.
+
+![user-save](https://user-images.githubusercontent.com/44470054/151715259-9cd64d86-d77f-4b67-8b1d-628eb00b7e85.JPG)
 
 
 
