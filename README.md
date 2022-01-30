@@ -129,14 +129,14 @@ User Save :
 
 User Updated Model:
 
-![user-save](https://user-images.githubusercontent.com/44470054/151715254-45651cc4-deb8-46d0-8f9d-6cffea02148a.JPG)
+![update-model](https://user-images.githubusercontent.com/44470054/151715952-0772509e-214a-4f4c-bff0-d60febc6a45f.png)
 
 
 Form Valid:
 
 The validations for the quality of the data received in the forms are limited in the same way as the backend.
 
-![user-save](https://user-images.githubusercontent.com/44470054/151715259-9cd64d86-d77f-4b67-8b1d-628eb00b7e85.JPG)
+![valid](https://user-images.githubusercontent.com/44470054/151715959-286bd71a-4ca9-4551-b42a-962ba1358007.JPG)
 
 
 
