@@ -37,6 +37,8 @@
 <li>Mapstruct</li>
 <li>Lombok</li>
 <li>Junit , Mockito</li>
+<li>Logging slf4j </li>
+
 <li>Swagger</li>
 <li>Twilio(SMS)</li>
 <li>React</li>
