@@ -59,6 +59,7 @@ public class CreditServiceImpl implements CreditService {
         BigDecimal salary = user.getSalary();
         CreditLevel creditLevel = null;
 
+        //if-else block that finds what level it is for credit and directs it to that algorithm
         if(creditScore>500 && creditScore<1000 && salary.longValue()<5000){
             creditLevel = LOW_LEVEL_CREDIT;
         }else if(creditScore>500 && creditScore<1000 && salary.longValue()>5000 && salary.longValue()<10000){
@@ -74,6 +75,7 @@ public class CreditServiceImpl implements CreditService {
         CreditSaveRequestDto creditResult = CreditCalculateFactory.getInstance(creditLevel)
                 .calculateCreditLimit(user.getId(),salary, user.getGuarantee());
 
+        //sms is sent by twilio only to registered reliable numbers. To test, your number must be registered. you can contact us to test it.
         twilioSmsSender.sendSms(new SmsRequest(user.getPhone(),
                 String.format(CREDIT_APPLICATION_RESULT_SMS,user.getName(),creditResult.getCreditResultType(),
                         currencyFormat(creditResult.getCreditLimit()))));
