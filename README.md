@@ -116,7 +116,13 @@ Sample Application
 ![credit-app-result](https://user-images.githubusercontent.com/44470054/151715428-41300a42-ff3c-4cca-8df9-71387276a802.JPG)
 
 
+SMS :
 
+!! Since the trial version of the Twilio api provides a security warning for public repos, the sms discard function has been translated into the comment line.For this reason, the sms feature has been added with images as an example.
+
+<img src="https://user-images.githubusercontent.com/44470054/152054730-304b315b-d533-4ba6-9acb-acc127975dd6.jpeg" height="450px"/>
+
+<img src="https://user-images.githubusercontent.com/44470054/152054798-29a5ee04-1155-459a-a292-0df18c40a47a.jpeg" height="450px"/>
 
 ### User Operations 
 This page lists users whose user information is updated or deleted.
@@ -150,6 +156,8 @@ The validations for the quality of the data received in the forms are limited in
 git clone https://github.com/n11-TalentHub-Java-Bootcamp/n11-talenthub-bootcamp-graduation-project-arikanogluulku.git
 
 Import the project to your IDE
+
+Configure application.properties files for PostgreSQL connection.
 
 Send request to endpoints. (The project is running on the 8080 port by default.)
 
