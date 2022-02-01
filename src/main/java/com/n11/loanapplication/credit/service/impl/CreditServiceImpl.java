@@ -75,10 +75,15 @@ public class CreditServiceImpl implements CreditService {
         CreditSaveRequestDto creditResult = CreditCalculateFactory.getInstance(creditLevel)
                 .calculateCreditLimit(user.getId(),salary, user.getGuarantee());
 
-        //sms is sent by twilio only to registered reliable numbers. To test, your number must be registered. you can contact us to test it.
-        twilioSmsSender.sendSms(new SmsRequest(user.getPhone(),
+            /*
+        sms is sent by twilio only to registered reliable numbers. To test, your number must be registered. you can contact us to test it.
+        Twilio API :
+        Since it is a trial version, it does not work in the public repo due to a security violation, so it has been commented out.
+
+       twilioSmsSender.sendSms(new SmsRequest(user.getPhone(),
                 String.format(CREDIT_APPLICATION_RESULT_SMS,user.getName(),creditResult.getCreditResultType(),
                         currencyFormat(creditResult.getCreditLimit()))));
+            */
 
         return saveCredit(creditResult);
     }
